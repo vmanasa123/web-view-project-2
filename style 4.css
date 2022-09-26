@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 62%;
+    height: 1000px;
+    background-color: rgb(237, 229, 229);
+    border: 1px solid rgb(126, 125, 125, 0.939);
+    margin-left: 250px;
+}
+/* ###############################top-nav##################################### */
+.top_nav{
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.top_nav a{
+   float: left;
+   text-decoration: none;
+   font-size: 28px;
+   font-weight: bolder;
+   padding: 15px 5px;
+   position: relative;
+   
+}
+/* ###########################icon############################ */
+.top_nav_1{
+    margin-left: 495px;
+    position: relative;
+}
+.top_nav_1 a{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    font-size: normal;
+    top: 10px;
+    position: absolute;
+    color: black;
+    
+ }
+ .top_nav_2{
+    margin-left: -209px;
+    position: relative;
+}
+.top_nav_2 a{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    font-size: normal;
+    top: 10px;
+    position: absolute;
+    color: black;
+    
+ }
+
+.fa-solid{
+    position: absolute;
+    top: 10px;
+    left: -265px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    opacity: 1;
+
+}
+.fa-circle-plus{
+  font-size: 35px;
+  color: rgb(43, 163, 210);
+}
+
+.fa-circle-arrow-left{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    left: -469px;
+    top:15px;
+}
+/* ####################################cards################################ */
+
+.cards{
+    display:flex ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    cursor: pointer;    
+}
+.card1{
+    height: 250px;
+    width: 350px;
+    margin-left:250px ;
+    margin-top: 40px;
+    /* border: 1px solid #FFFFFF; */
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 4px #FFFFFF ;
+    
+}
+.card1:hover{
+    background-color: #FFFFFF;
+}
+
+.cards a{
+    text-decoration: none;
+    color: rgb(17, 175, 237);
+    margin-left: 20px;
+    padding: 50px 5px;
+}
+h3{
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.p11{
+    height: 35px;
+    width: 35px;
+    background-color: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+.c{
+    height: 20px;
+    width: 20px;
+    font-size: 30px;
+}
+
+.p12{
+    height: 40px;
+    width: 250px;
+    background-color: none;
+    text-decoration: line-through;
+    margin-left: 1px;
+    margin-top: 20px;
+    float: left;
+    color: grey;
+}
+.p13{
+    height: 25px;
+    width: 25px;
+    background-color: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.p14{
+    height: 40px;
+    width: 150px;
+    background-color: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+/* ############################################################# */
+.container_1{
+    width: 62%;
+    height: 1000px;
+    background-color: #000000;
+    border: 1px solid rgba(126, 125, 125, 0.939);
+    left: 250px;
+    top: 0;
+    filter: blur(1%);
+    opacity: 0.6;
+    position: absolute;
+    cursor: pointer;
+    
+}
+.box-con_1{
+    width:350px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    top: 130px;
+    left: 500px;
+    position: absolute;
+    box-shadow: 0px 0px 20px #67676729;
+    cursor: pointer;
+
+}
+#bbb{
+    color: rgb(42, 41, 41);
+    position: absolute;
+    top:15px;
+    left: 20px;
+    
+}
+#input_a{
+    margin-left: 20px;
+    width:320px;
+    height: 20px;
+    border: 1px solid rgb(192, 191, 191);
+    background-color: rgba(222, 217, 217, 0.2);
+   
+}
+
+.add_task a{
+    text-decoration: none;
+    color: white;
+}
+.btn_1{
+    background-color: rgb(43, 163, 210);
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin: 20px 18px;
+}
+.fa-xmark{
+    color: grey;
+    position: absolute;
+    left:300px;
+    top:15px;
+}
